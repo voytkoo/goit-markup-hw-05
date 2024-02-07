@@ -521,7 +521,7 @@ fill: #F4F4FD;
     transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
-    background-color: ;
+    background-color: #FCFCFC;
     border-radius: 4px;
 }
 
@@ -529,6 +529,6 @@ fill: #F4F4FD;
 
 }
 
-.close-icon {
+.modal-close-icon {
 
 }
