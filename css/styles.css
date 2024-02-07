@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
 body {
 font-family: Roboto,sans-serif;
 color: #434455;
@@ -245,6 +250,8 @@ padding: 120px 0;
 .section_team {
 background-color: #F4F4FD;
 padding: 120px 0;
+max-width: 1440px;
+    margin: 0 auto;
 }
 
 .team_title {
@@ -332,6 +339,7 @@ color: #2E2F42;
     background-color: #FFF;
     padding-top: 120px;
     padding-bottom: 120px;
+   
 }
     
 
@@ -421,6 +429,8 @@ color: #2E2F42;
 background-color: #2E2F42;
 padding-left: 156px;
 padding: 100px 0;
+max-width: 1440px;
+    margin: 0 auto;
 }
 .container-footer {
     display: flex;
@@ -494,33 +504,31 @@ fill: #F4F4FD;
 .icon-link:focus {
     background-color: #31d0aa;
 }
+/* modal */
 .backdrop {
     position: fixed;
-    top:0;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(46, 47, 66, 0.40);
-
+    background-color: rgba(46, 47, 66, 0.40);
 }
+
 .modal {
+
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
-    flex-shrink: 0;
+    background-color: ;
     border-radius: 4px;
-    background: #FCFCFC;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50% -50%);
-    padding: 24px;
 }
-.modal-close {
-    width: 8px;
-    height: 8px;
-    fill: #E7E9FC;
-    stroke-width: 1px;
-    stroke: rgba(0, 0, 0, 0.10);
-    padding-top: 24px;
-    padding-left: 24px;
-    border-radius: 50%;
+
+.modal-close-btn {
+
+}
+
+.close-icon {
+
 }
