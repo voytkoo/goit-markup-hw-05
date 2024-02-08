@@ -437,13 +437,43 @@
         <p class="backdrop-text">Leave your contacts and we will call you back
         </p>
         <form >
-<input type="text" name="user-person" class="backdrop-input"/>
-<input type="text" name="user-tel" class="backdrop-input"/>
-<input type="text" name="user-email" class="backdrop-input"/>
-<button type="submit">Send</button>
-        </form>
-    </div>
+    <div class="name-div">
+<label for="name-name" class="label-name">Name</label>
+<div class="modal-inp">
+<input type="text" name="user-person" class="backdrop-input" required id="name-name" />
+<svg class="modal-icon" width="18" height="18">
+    <use href="./images/icons.svg#icon-person-black-18dp-1-1"></use>
+</svg>
 </div>
+    </div>       
+ 
+  <div class="name-div">
+<label for="tel-name" class="label-name">Phone</label>
+<div class="modal-inp">
+<input type="tel" name="user-tel" class="backdrop-input" required id="tel-name" />
+<svg class="modal-icon" width="18" height="18">
+    <use href="./images/icons.svg#icon-phone-black-18dp-1-1"></use>
+</svg>
+</div>
+</div>
+
+<div class="name-div">
+<label for="email-name" class="label-name">Email</label>
+<div class="modal-inp">
+<input type="email" name="user-email" class="backdrop-input" required id="email-name" />
+<svg class="modal-icon" width="18" height="18">
+    <use href="./images/icons.svg#icon-email-black-18dp-1-2"></use>
+</svg>
+</div>
+</div>
+<div class="name-div">
+<label for="text-name" class="label-name">Comment</label>
+<textarea name="text-name" id="text-name" class="modal-textarea" placeholder="Text input"></textarea>
+</div>
+<button class="modal-btn" type="submit">Send</button>
+</div>
+</form>
+    </div>
 </body>
 
 </html>
