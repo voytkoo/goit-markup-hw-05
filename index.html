@@ -427,13 +427,21 @@
             </div>
         </div>
     </footer>
-<div class="backdrop">
+<div class="backdrop open">
     <div class="modal">
         <button type="button" class="modal-close-btn">
-            <svg class="modal-close-icon">
-                <use></use>
+            <svg class="modal-close-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-close-black-18dp-2-1-1"></use>
             </svg>
         </button>
+        <p class="backdrop-text">Leave your contacts and we will call you back
+        </p>
+        <form >
+<input type="text" name="user-person" class="backdrop-input"/>
+<input type="text" name="user-tel" class="backdrop-input"/>
+<input type="text" name="user-email" class="backdrop-input"/>
+<button type="submit">Send</button>
+        </form>
     </div>
 </div>
 </body>
