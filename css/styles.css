@@ -458,7 +458,7 @@ max-width: 1440px;
     width: 264px;
 } 
 .text-container {
-   
+   margin-right: 80px;
 
 }
 .icon-text {
@@ -512,11 +512,11 @@ fill: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin-inline-start: 20px;
 }
 .subscribe-form {
     display: flex;
     gap: 24px;
-
 }
 
 .footer-label {
