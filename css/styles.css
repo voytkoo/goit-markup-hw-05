@@ -512,7 +512,7 @@ fill: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin-inline-start: 20px;
+    margin-inline-start: 5px;
 }
 .subscribe-form {
     display: flex;
@@ -541,14 +541,14 @@ fill: #F4F4FD;
     
 }
 .footer-input::placeholder {
-    color #ffffff;
+    color: #ffffff;
 }
 
-.footer-btn {
+.subscribe-btn {
     min-width: 165px;
     height: 40px;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -658,11 +658,18 @@ fill: #F4F4FD;
 }
 .backdrop-input:focus {
    border-color: #4D5AE5; 
+   
 }
 .backdrop-input:focus + .modal-icon {
     fill: #4D5AE5;
 }
-.name-div {
+.name-div-name {
+    margin-bottom: 8px;
+}
+.name-div-phone {
+    margin-bottom: 8px;
+}
+.name-div-email {
     margin-bottom: 8px;
 }
 .label-name {
