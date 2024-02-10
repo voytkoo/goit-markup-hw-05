@@ -663,13 +663,7 @@ fill: #F4F4FD;
 .backdrop-input:focus + .modal-icon {
     fill: #4D5AE5;
 }
-.name-div-name {
-    margin-bottom: 8px;
-}
-.name-div-phone {
-    margin-bottom: 8px;
-}
-.name-div-email {
+.name-div {
     margin-bottom: 8px;
 }
 .label-name {
@@ -750,17 +744,15 @@ margin-bottom: 24px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    display: flex;
-    align-items: center;
+    
     
 }
 
 .span-label {
     width: 16px;
     height: 16px;
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 8px;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -769,7 +761,7 @@ margin-bottom: 24px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1),
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-        display: inline-flex;
+        
 }
 
 .label-link{
